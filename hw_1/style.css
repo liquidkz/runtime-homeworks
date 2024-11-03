@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 1312px;
+  height: 807px;
+  display: flex;
+  justify-content: space-around;
+  gap: 31px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 304px;
+  height: 388px;
+  border: 1px solid rgba(221, 221, 221, 1);
+  padding: 25px;
+}
+
+.card_title {
+  font-family:
+    Plus Jakarta Sans,
+    sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: left;
+}
+
+.car_specs {
+  font-family:
+    Plus Jakarta Sans,
+    sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: left;
+  color: rgba(144, 163, 191, 1);
+}
+
+.img_car {
+  width: 232px;
+  height: 72px;
+  margin-top: 67.5px;
+}
+
+.card_specs {
+  display: flex;
+  margin-top: 67.5px;
+  justify-content: space-between;
+  gap: 15.64px;
+}
+
+.car_gas {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.car_type {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.car_people {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.card_specs_fonts {
+  font-family:
+    Plus Jakarta Sans,
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17.6px;
+  color: rgba(144, 163, 191, 1);
+}
+
+.card_footer {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_price {
+  font-family:
+    Plus Jakarta Sans,
+    sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.2px;
+}
+
+.card_button {
+  width: 113px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(53, 99, 233, 1);
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family:
+    Plus Jakarta Sans,
+    sans-serif;
+}
