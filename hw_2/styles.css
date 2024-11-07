@@ -14,10 +14,11 @@ body {
     height: 100vh;
     background-color: black;
     font-family: Inter, sans-serif;
+    position: relative;
 }
 
 .wrapper {
-    width: 1229px
+    width: 1229px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 109px;
@@ -70,14 +71,21 @@ body {
     flex-direction: column;
     gap: 30px;
     height: 1010px;
+    justify-content: center;
 }
 
 .main-section-discr {
     width: 530px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
 }
 
 .img-section {
-    width: 773px;
+    position: absolute;
+    left: 520px;
+    z-index: 1;
 }
 
 .img {
