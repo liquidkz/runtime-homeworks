@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+
+a,
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1312px;
+  margin: 0 auto;
+}
+
+.header-cards {
+  display: flex;
+  gap: 32px;
+  margin-top: 100px;
+}
+
+.big-cards {
+  min-width: 640px;
+  min-height: 320px;
+}
+
+.big-cards-light {
+  background-color: #54a6ff;
+}
+
+.big-cards-dark {
+  background-color: #3563e9;
+}
+
+.big-cards-main {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  padding: 28px 24px;
+}
+
+.big-cards-main-text {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  width: 50%;
+  color: #ffffff;
+}
+
+.big-cards-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: #ffffff;
+  width: 50%;
+}
+
+.big-cards-button {
+  max-width: 118px;
+  min-height: 40px;
+  align-content: center;
+  padding: 10px 20px;
+  border: 0;
+}
+
+.cards-dark-button {
+  background-color: #3563e9;
+}
+
+.cards-light-button {
+  background-color: #54a6ff;
+}
+
+.big-cards-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  /* width: 100%; */
+}
+
+.section-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 20px;
+  padding-bottom: 0;
+}
+
+.section-buttons-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.section-buttons-grey {
+  color: rgba(144, 163, 191, 1);
+}
+
+.section-buttons-blue {
+  color: #3563e9;
+}
+
+.section-popular {
+  display: grid;
+  grid-template-columns: repeat(4, 304px);
+  grid-template-rows: repeat(1, 304px);
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.section-recomendation {
+  display: grid;
+  grid-template-columns: repeat(4, 304px);
+  grid-template-rows: repeat(1, 304px);
+  gap: 32px;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title-text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25.2px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.specs-grey {
+  color: rgba(144, 163, 191, 1);
+}
+
+.card-specs {
+    display: flex;
+}
