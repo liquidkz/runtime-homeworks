@@ -86,6 +86,7 @@ a:link {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-grow: 2;
 }
 
 .image {
@@ -115,7 +116,7 @@ a:link {
 .section-popular {
   display: grid;
   grid-template-columns: repeat(4, 304px);
-  grid-template-rows: repeat(1, 304px);
+  grid-template-rows: repeat(1, 388px);
   gap: 32px;
   margin-top: 20px;
 }
@@ -123,7 +124,7 @@ a:link {
 .section-recomendation {
   display: grid;
   grid-template-columns: repeat(4, 304px);
-  grid-template-rows: repeat(1, 304px);
+  grid-template-rows: repeat(1, 388px);
   gap: 32px;
   margin-top: 20px;
 }
@@ -131,6 +132,8 @@ a:link {
 .card {
   display: flex;
   flex-direction: column;
+  border: 1px solid #DDDDDD;
+  padding: 25px;
 }
 
 .card-title-text {
@@ -146,4 +149,62 @@ a:link {
 
 .card-specs {
     display: flex;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header-text {
+}
+
+.card-specs-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specs-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.64px;
+  color: #90A3BF;
+}
+
+.car-specs-icons {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.card-price {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.2px;
+  align-content: center;
+}
+
+.img-car {
+  flex-grow: 2;
+  margin-right: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-button {
+  max-width: 153px;
+  min-height: 40px;
+  align-content: center;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 72px;
 }
