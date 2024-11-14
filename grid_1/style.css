@@ -39,14 +39,16 @@ body {
 
 .playlists-cards {
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(4, 266px);
+  grid-template-rows: repeat(2, 50px);
   border: 1px solid red;
 }
 
 .small-card {
   display: flex;
   gap: 0;
+  max-height: 50px;
+  width: 100%;
 }
 
 .small-card-title {
@@ -55,15 +57,15 @@ body {
   align-items: center;
   background-color: #ffffff14;
   max-height: 50px;
+  width: 100%;
 }
 
 .small-card-image {
-  max-height: 50px;
+    width: 50px;
+    height: 50px;
 }
 
-.image {
-  width: 100%;
-}
+
 
 .title-text {
   font-size: 14px;
